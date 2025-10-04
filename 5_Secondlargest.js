@@ -1,6 +1,9 @@
 // inorder to the find the second largest number in the aray
 
 function secondLargest(arr) {
+    if (arr.length < 2) {
+        return "Array should have atleat two numbers"
+    }
     let firstLargest = -Infinity
     let secondLargest = -Infinity
     for (let i = 0; i < arr.length; i++){

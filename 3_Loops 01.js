@@ -41,10 +41,10 @@ for (let i = 0; i < arr.length; i++) {
 
 // fpr printing the even numbers in the array
 
-let a = [12, 1, 12, 13, 33, 4]
+let a1 = [12, 1, 12, 13, 33, 4]
 for (let i = 0; i < a.length; i++){
     if (a[i] % 2 == 0) {
-        console.log(a[i])
+        console.log(a1[i])
     }
 }
 
